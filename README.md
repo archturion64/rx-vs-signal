@@ -11,8 +11,9 @@ To install dependencies:
 npm ci
 ```
 
-Create a file in the package.json folder called .env
-it should specify the following 3 variables out of your Supabase project:
+Create a file in the package.json folder called ".env".
+
+It should specify the following 3 variables out of your Supabase project:
 
 ```
 DATABASE_URL="postgresql://postgres.<add me>:<add me>@aws-0-eu-central-1.pooler.supabase.com:6543/postgres"
